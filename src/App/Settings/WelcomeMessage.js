@@ -12,10 +12,5 @@ export default function Welcome({firstVisit}) {
            }
        </AppContext.Consumer>
     )
-    }
+}
 
-/*export default function () {
-    return(
-        <div>Hello you!</div>
-    )
-}*/

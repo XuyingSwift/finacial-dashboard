@@ -2,7 +2,7 @@ import React from 'react'
 import WelcomeMessage from './WelcomeMessage'
 import ConfirmButton from './ConfirmButton'
 
-export default function (){
+function Settings(){
     return(
         <div>
             <WelcomeMessage/>
@@ -11,3 +11,5 @@ export default function (){
 
     )
 }
+
+export default Settings
