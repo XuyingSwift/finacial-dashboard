@@ -19,11 +19,7 @@ const CenterDiv = styled.div`
   justify-content: center;
 `
 
-<<<<<<< HEAD
-function ConfirmButton(){
-=======
  function ConfirmButton (){
->>>>>>> e590f2f3cdb17da4e4e966e6e8ebf312463ad470
     return(
         <AppContext.Consumer>
             {
