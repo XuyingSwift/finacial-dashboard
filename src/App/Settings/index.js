@@ -11,8 +11,6 @@ function Settings(){
             <ConfirmButton/>
             <CoinGrid/>
         </Page>
-            
-
     )
 }
 export default Settings
