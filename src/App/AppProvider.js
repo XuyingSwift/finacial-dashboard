@@ -20,9 +20,12 @@ export class AppProvider extends React.Component {
             confirmFav: this.confirmFav,
             addCoin: this.addCoin,
             removeCoin: this.removeCoin,
-            isInFavorites: this.isInFavorites
+            isInFavorites: this.isInFavorites,
+            setFilteredCoins: this.setFilteredCoins
         }
     }
+
+    setFilteredCoins = (filteredCoins) => this.setState({filteredCoins});
 
     isInFavorites = key => _.includes(this.state.favorites, key)
 
