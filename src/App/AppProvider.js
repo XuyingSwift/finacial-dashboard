@@ -73,8 +73,8 @@ export class AppProvider extends React.Component {
                firstVisit: true
            }) 
        }
-       let {favorites} = cryptoDashData;
-       return {favorites};
+       let favorites = cryptoDashData;
+       return {favorites}
 
     }
 
